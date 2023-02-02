@@ -1,0 +1,103 @@
+.pricing{
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width:62.13rem ! important;
+    
+    
+}
+
+.blend{
+    mix-blend-mode: darken !important; 
+    font-weight: 900 !important;
+}
+
+.access{
+    
+    padding-top: 25px !important;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-weight: 600;
+}
+
+.extrabold{
+    font-weight:700 !important;
+}
+.imagelogo{
+    width: 1.38rem !important;
+    height: 1.38rem !important;
+    /* object-fit: cover !important; */
+}
+
+.button{
+    
+    width: 17.63rem !important;
+    height:3.19rem !important
+    /* width: 17.63rem !important; */
+}
+/* media Queries */
+
+@media only screen and (max-width: 900px) {
+    
+    .button{
+        width: 12rem !important ;
+        margin-bottom: 10px !important;
+    }
+}
+@media only screen and (max-width: 705px) {
+    .button{
+        width: 12rem !important;
+        height: 2.19rem !important;
+        margin-top: 0px !important;
+        /* margin-bottom: 5px !important; */
+        
+    }
+    .blend{
+        height:auto !important;
+        width: ;
+    }
+   
+}
+
+@media only screen and (max-width: 530px) {
+    .pricing{
+        /* background-color: black !important; */
+        flex-direction: column !important;
+        max-width: 35rem ! important;
+        border-bottom-left-radius: 20px !important;
+        border-bottom-right-radius: 20px !important;
+        top: 90% !important;
+    }
+    .blend{
+        width: 100% !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 100 !important;
+        
+    }
+    .button{
+        width:17.63rem !important;
+        font-size: 16px !important;
+        height: 3.9rem !important;
+    }
+    .access{
+        background-color: whitesmoke;
+        padding: 20px 20px 20px 20px;
+        border-bottom-left-radius: 12px !important;
+            border-bottom-right-radius: 12px !important;
+    }
+    .price1{
+        font-size: 3.5rem !important;
+        font-weight: 800 !important;
+    }
+    .price2{
+        font-size: 2.5rem !important;
+    }
+    .extrabold{
+        font-size: 18px !important;
+    }
+
+
+}

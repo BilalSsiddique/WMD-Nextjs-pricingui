@@ -1,0 +1,31 @@
+.logo1{
+    width: 2.50rem !important;
+    /* height: 3.00rem !important; */
+}
+
+.icons{
+    max-width:58.75rem !important; 
+    height:3.00rem !important;
+}
+
+
+@media only screen and (max-width: 530px) {
+    .icons{
+        top:315% !important;
+        padding-bottom: 50px !important;
+        flex-direction: column;
+        align-items: center !important;
+        max-width: 35rem ! important;
+        height: 178px !important;
+        /* background-color: black; */
+        
+        /* justify-content: center !important; */
+    }
+    .iconscontainer{
+        width: 30rem !important;
+        left: 0px !important;
+        right: 0px !important;
+        margin: 0 auto !important;
+        /* justify-content: space-between !important; */
+    }
+}
